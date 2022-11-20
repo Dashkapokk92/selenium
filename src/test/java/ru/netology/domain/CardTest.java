@@ -18,8 +18,8 @@ public class CardTest {
 
         @BeforeAll
         public static void setUpAll() {
-            System.setProperty("webdriver.chrome.driver", "C:\\tmp\\chromedriver.exe");
-            //WebDriverManager.chromedriver().setup();
+            //system.setProperty("webdriver.chrome.driver", "C:\\tmp\\chromedriver.exe");
+            WebDriverManager.chromedriver().setup();
         }
 
         @BeforeEach
